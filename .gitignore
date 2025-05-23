@@ -1,0 +1,28 @@
+# Ignore dataset and image files
+dataset/
+images/
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar.gz
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Ignore Python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore notebook junk
+.ipynb_checkpoints/
+
+# Ignore environments
+venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
